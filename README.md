@@ -1,12 +1,34 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, fast, responsive personal portfolio built with **React (Vite)** and **Tailwind CSS**.  
+Includes a ready-to-use Docker setup and GitHub Codespaces configuration so anyone can run it instantly.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Modern React + Vite dev experience (fast HMR)
+- Tailwind for utility-first styling
+- Production build served by Nginx (multi-stage Docker build)
+- One-command local dev, Docker, or Codespaces
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
+**Frontend:** React (Vite), Tailwind CSS  
+**Build/Serve:** Vite (dev), Nginx (prod)  
+**DevOps:** Docker & Docker Compose, GitHub Codespaces
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Quick Start (Local Dev)
+
+> Requires Node 18+ and npm.
+
+```bash
+# 1) clone
+git clone https://github.com/<YOUR_USERNAME>/my-portfolio.git
+cd my-portfolio
+
+# 2) install deps
+npm install
+
+# 3) run dev server
+npm run dev
