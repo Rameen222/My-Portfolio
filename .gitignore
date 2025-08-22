@@ -1,0 +1,20 @@
+# builds & caches
+dist/
+build/
+.vite/
+.cache/
+
+# deps
+node_modules/
+
+# env / system
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
